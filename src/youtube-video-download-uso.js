@@ -66,7 +66,7 @@
 	if (document.location.href == "https://userscripts.org/scripts/source/62634.meta.js")
 	{
 		inject(function() {
-			window.parent.postMessage(document.documentElement.textContent, "*");
+			window.parent.postMessage(document.documentElement.textContent, "https://trusted-origin.com");
 		});
 
 		return;
